@@ -1,0 +1,28 @@
+{
+  "name": "multi-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautarobock/tigre-rio-alerta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lautarobock/tigre-rio-alerta/issues"
+  },
+  "homepage": "https://github.com/lautarobock/tigre-rio-alerta#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "tigre-rio-alerta-be": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.3"
+  }
+}
